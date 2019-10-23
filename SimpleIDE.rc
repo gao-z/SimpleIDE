@@ -1,0 +1,140 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON                    "SimpleIDE.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+SIMPLEIDE MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                IDM_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            IDM_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               IDM_FILE_SAVE
+        MENUITEM "Save &As...",                 IDM_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               IDM_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                IDM_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               IDM_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              IDM_EDIT_PASTE
+        MENUITEM "De&lete\tDel",                IDM_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Select All",                 IDM_EDIT_SELECT_ALL
+    END
+    POPUP "&Build"
+    BEGIN
+        MENUITEM "&Build\tCtrl+B",              IDM_BUILD_BUILD
+        MENUITEM "&Run\tCtrl+R",                IDM_BUILD_RUN
+        MENUITEM "&Build and run\tCtrl+U",      IDM_BUILD_BUILD_AND_RUN
+        MENUITEM SEPARATOR
+        MENUITEM "Debug\tCtrl+D",               IDM_BUILD_DEBUG
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help",                       IDM_HELP_HELP
+        MENUITEM "&About SimpleIDE...",         IDM_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+SIMPLEIDE ACCELERATORS DISCARDABLE
+BEGIN
+    VK_BACK,        IDM_EDIT_UNDO,          VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      IDM_EDIT_CLEAR,         VIRTKEY, NOINVERT
+    VK_DELETE,      IDM_EDIT_CUT,           VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          IDM_HELP_HELP,          VIRTKEY, NOINVERT
+    VK_INSERT,      IDM_EDIT_COPY,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      IDM_EDIT_PASTE,         VIRTKEY, SHIFT, NOINVERT
+    "^N",           IDM_FILE_NEW,           ASCII,  NOINVERT
+    "^O",           IDM_FILE_OPEN,          ASCII,  NOINVERT
+    "^S",           IDM_FILE_SAVE,          ASCII,  NOINVERT
+    "^C",           IDM_EDIT_COPY,          ASCII,  NOINVERT
+    "^V",           IDM_EDIT_PASTE,         ASCII,  NOINVERT
+    "^X",           IDM_EDIT_CUT,           ASCII,  NOINVERT
+    "^Z",           IDM_EDIT_UNDO,          ASCII,  NOINVERT
+    "^B",           IDM_BUILD_BUILD,        ASCII,  NOINVERT
+    "^R",           IDM_BUILD_RUN,          ASCII,  NOINVERT
+    "^U",           IDM_BUILD_BUILD_AND_RUN,ASCII,  NOINVERT
+    "^D",           IDM_BUILD_DEBUG,        ASCII,  NOINVERT
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

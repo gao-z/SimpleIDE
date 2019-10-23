@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1571835370 source:c:\users\gao\desktop\±àÒëÆ÷\simpleide\main.c
+	<windows.h>
+	<commdlg.h>
+	"resource.h"
+	"IDEFile.h"
+	"CXCompiler.h"
+
+1571832962 c:\users\gao\desktop\±àÒëÆ÷\simpleide\resource.h
+
+1571833262 source:c:\users\gao\desktop\±àÒëÆ÷\simpleide\simpleide.rc
+	"resource.h"
+	"afxres.h"
+
+1571831449 c:\users\gao\desktop\±àÒëÆ÷\simpleide\cxcompiler.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571841615 source:c:\users\gao\desktop\±àÒëÆ÷\simpleide\cxcompiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"CXcompiler.h"
+
+1569129995 source:c:\users\gao\desktop\±àÒëÆ÷\simpleide\idefile.c
+	<windows.h>
+	<commdlg.h>
+
+1569129666 c:\users\gao\desktop\±àÒëÆ÷\simpleide\idefile.h
+

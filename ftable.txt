@@ -1,0 +1,6 @@
+
+===·ûºÅ±í===
+1	      int	n	lev=0	addr=3
+2	      int	i	lev=0	addr=4
+3	      bool	flag	lev=0	addr=5
+

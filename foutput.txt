@@ -1,0 +1,20 @@
+1 {
+1     int n;
+1     int i;
+1     bool flag;
+1 
+1     for(n=2;n<=100;n++)
+14     {
+14         flag = false;
+17         for(i=2;i<n;i++)
+29         {
+29             if (n % i == 0)
+35                 flag = true;
+38         }
+38         if (flag == false)
+43             write n;
+47     }    
+47 }
+47 
+
+===±àÒë³É¹¦!===
